@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct No {
+struct No {
 	int dado;
 	struct No* prox;
-} No;
+};
 
 struct No* criar_lista() {
 	return NULL;
